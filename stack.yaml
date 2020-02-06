@@ -1,7 +1,4 @@
 packages:
  - .
-
-resolver: lts-7.3
-
-extra-deps:
- - rolling-queue-0.1
+ - 'ring-buffer'
+resolver: lts-14.22

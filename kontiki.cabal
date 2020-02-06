@@ -36,6 +36,7 @@ Library
                      , binary
                      , lens
                      , QuickCheck
+                     , ring-buffer
   Hs-Source-Dirs:      src
   Ghc-Options:         -Wall -fwarn-incomplete-patterns
 
@@ -49,6 +50,7 @@ Executable kontiki-demo
                      , containers
                      , hslogger
                      , kontiki
+                     , ring-buffer
   Hs-Source-Dirs:      bin
   Ghc-Options:         -Wall -fwarn-incomplete-patterns -rtsopts -threaded
 
@@ -68,9 +70,9 @@ Executable kontiki-udp
                      , conduit
                      , conduit-extra
                      , streaming-commons
-                     , rolling-queue
                      , lens
                      , kontiki
+                     , ring-buffer
   Hs-Source-Dirs:      bin
   Ghc-Options:         -Wall -fwarn-incomplete-patterns -rtsopts -threaded
 
